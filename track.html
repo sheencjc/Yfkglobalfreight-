@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Track Your Shipment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="track.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Track Your Shipment</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="track.html">Track Shipment</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="tracking">
+            <h2>Enter Tracking Number</h2>
+            <input type="text" id="trackingNumber" placeholder="e.g., YFK12345678">
+            <button onclick="trackShipment()">Track</button>
+            <div id="trackingResult"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Yfk Global Freight Company</p>
+    </footer>
+</body>
+</html>
